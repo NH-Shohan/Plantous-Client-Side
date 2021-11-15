@@ -7,7 +7,7 @@ import contact from "../../../images/contact.png";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container sx={{ mt: 5, pt: 5 }}>
       <Grid container spacing={2}>
         <Grid
           item

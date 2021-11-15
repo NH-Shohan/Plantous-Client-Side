@@ -29,8 +29,8 @@ const Review = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="title_wrapper">
+    <div className="container" style={{ marginBottom: "100px" }}>
+      <div className="title_wrapper" style={{ textAlign: "center" }}>
         <Typography variant="h4">
           What People <span style={{ color: "green" }}>Says About Us</span>
         </Typography>
@@ -60,7 +60,7 @@ const Review = () => {
           <SwiperSlide>
             <Paper
               elevation={3}
-              sx={{ textAlign: "justify", p: 3, height: "400px" }}
+              sx={{ textAlign: "justify", p: 3, height: "auto" }}
             >
               <div>
                 <img
